@@ -1,0 +1,436 @@
+/* BOTÃO DO TIPO "LINK" ============================= */
+.link{
+	background: url(../img/bt/bl_link.png) no-repeat center right;
+	border-bottom: solid 1px #ccc;
+	clear: left;
+	color:#808285;
+	display: block;
+	font-size: 21px;
+	margin:10px 0;
+	padding: 15px 0;
+	width:425px;
+}
+/* BOTÃO ============================= */
+.button{
+	background-repeat: repeat-x;
+	background-color:#666;
+	border: solid 1px #333;
+	border-radius: 8px;
+	box-shadow: 0px 2px 3px 0px #999;
+	cursor: pointer;
+	float: left;
+	color: #fff;
+	display: block;
+	font-size: 16px;
+	font-weight: bold;
+	padding: 11px 0;
+	text-align: center;
+	width: 200px;
+}
+.button.azul{
+	/*background-image:url(../img/bg/bg_btAzul.png);*/
+	background-image: linear-gradient(bottom, #6C94BC 70%, #618CB8 80%);
+	background-image: -o-linear-gradient(bottom, #6C94BC 70%, #618CB8 80%);
+	background-image: -moz-linear-gradient(bottom, #6C94BC 70%, #618CB8 80%);
+	background-image: -webkit-linear-gradient(bottom, #6C94BC 70%, #618CB8 80%);
+	background-image: -ms-linear-gradient(bottom, #6C94BC 70%, #618CB8 80%);
+	background-image: -webkit-gradient(
+		linear,
+		left bottom,
+		left top,
+		color-stop(0.7, #6C94BC),
+		color-stop(0.8, #618CB8)
+	);
+	
+	background-color: #618cb8;
+	border: solid 1px #4b7cae;
+}
+.button.laranja{
+	/*background-image:url(../img/bg/bg_btLaranja.png);*/
+	background-image: linear-gradient(bottom, rgb(237,139,26) 30%, rgb(231,186,52) 71%);
+	background-image: -o-linear-gradient(bottom, rgb(237,139,26) 30%, rgb(231,186,52) 71%);
+	background-image: -moz-linear-gradient(bottom, rgb(237,139,26) 30%, rgb(231,186,52) 71%);
+	background-image: -webkit-linear-gradient(bottom, rgb(237,139,26) 30%, rgb(231,186,52) 71%);
+	background-image: -ms-linear-gradient(bottom, rgb(237,139,26) 30%, rgb(231,186,52) 71%);
+	background-image: -webkit-gradient(
+		linear,
+		left bottom,
+		left top,
+		color-stop(0.3, rgb(237,139,26)),
+		color-stop(0.71, rgb(231,186,52))
+	);
+	
+	background-color: #ed8c1a ;
+	background-position: 0 0;
+	border: solid 1px #e3ac06;
+}
+/* TABELAS ============================= */
+table{
+	clear: left;
+	width:100%;
+}
+table.results
+{
+	margin-top: 20px;
+}
+table tr th
+,table tr td
+{
+	vertical-align: middle;
+}
+table thead tr
+,table tfoot tr {
+	background:#b1d5e5;
+	border-top: groove 2px #fff;
+	border-bottom: ridge 2px #fff;
+	color:#808285;
+	font-size: 16px;
+	font-weight: bold;
+	height: 34px;	
+}
+table tfoot tr:nth-child(even)
+{
+	background:#daedf6;
+}
+table thead tr th
+,table tfoot tr th{
+	padding: 0 20px;
+	text-align: left;
+	vertical-align: middle;
+}
+table tfoot
+{
+	padding-top: 10px;
+}
+table tfoot tr th.label
+{
+	text-align: left;
+}
+table tfoot tr th.valor
+{
+	text-align: right;
+}
+table tbody tr.hidded
+{
+	display: none;
+}
+table tbody tr td{
+	background: #e3eaec;
+	border-top: solid 1px #fff;
+	border-bottom: solid 1px #fff;
+	color:#555556;
+	font-size: 13px;
+	padding: 16px 20px;
+	text-align: left;
+	vertical-align: middle;
+}
+table tbody#tbodyResult tr td {
+	border-top: ridge 2px #fff;
+	border-bottom: ridge 2px #fff;
+	}
+table tr td.bloqued {
+	white-space: nowrap;	
+	}
+
+table tr td.bloqued span
+{
+	display: block;
+	padding: 7px 10px 0 0;
+	height: 17px;
+	width: 98%;
+	background-image: url(../img/bg/lock.png);
+	background-position: right center;
+	background-repeat: no-repeat;
+}
+table tbody tr td a
+{
+	color:#555556;
+	font-size: 13px;
+	text-decoration: underline;
+	display:block;
+}
+table tbody tr:nth-child(odd) td{ background: #f0f6f7; }
+table tbody tr.head td{
+	background:#fff;
+	border: none;
+	color:#acadad;
+	font-size: 15px;
+	font-weight: bold;
+	height: 32px;
+	padding: 0 20px;
+}
+
+table.legenda{
+	margin-top: 20px;
+	}
+
+table.legenda tbody tr td {
+	background: #d2d4d5;
+	font-weight: bold;
+	}
+/* FILTRO =================================  */
+.filter{
+	width: 100%;
+	clear: left;
+	float:left;
+	margin: 0 0 20px 0;
+}
+.filter .button{
+	float:left;
+	margin: 0 5px;
+}
+.filter form{
+	border-top: solid 6px #e89d0f;
+	border-bottom: solid 1px #ccc;
+	clear: left;
+	float:left;
+	margin: 20px 0;
+	padding: 5px 0 25px 0;
+	width: 100%;
+}
+.filter form.f1{ display: none;}
+.filter form.f2{ display: block;}
+.filter h4{
+	clear: left;
+	color:#808285;
+	font-size:16px;
+	font-weight: bold;
+	padding: 5px 0;
+	width: 100%;
+}
+.filter select{
+	color:#808285;
+	float:left;
+	font-size:21px;
+	height: 45px;
+	margin: 10px 5% 15px 5%;
+	width:40%;
+}
+.filter form.f2 select{
+	width:360px;
+}
+.filter input[type=submit]{
+	clear: left;
+	float:left;
+	font-size:21px;
+	padding: 7px 0;
+	width:100%;
+}
+.filter form.f1:before{
+	content: "";
+	position: relative;
+	width: 0;
+	height: 0;
+	border-left: 11px solid transparent;
+	border-right: 11px solid transparent;
+	border-bottom: 11px solid #e89d0f;
+	top:-38px;
+	left:110px;
+	margin: 0 -11px 0 -11px;
+}
+.filter form.f2:before{
+	content: "";
+	position: relative;
+	width: 0;
+	height: 0;
+	border-left: 11px solid transparent;
+	border-right: 11px solid transparent;
+	border-bottom: 11px solid #e89d0f;
+	top:-38px;
+	left:320px;
+	margin: 0 -11px 0 -11px;
+}
+#btBackHistory
+{
+	display: block;
+	text-indent: -99999em;
+	overflow: hidden;
+	display: block;
+	height: 14px;
+	width: 63px;
+	float: left;	
+	background: transparent url("../img/game/bt_back_history.png") center center no-repeat;
+	margin-left: 24px;
+	margin-top: 15px;
+}
+#innerMenu
+{
+	padding-top: 30px;
+	margin: 0 auto;
+	clear: both;
+	width: 90%;
+	padding-left: 5%;
+	padding-right:5%;
+}
+#innerMenu h3
+{
+	color: #034e9b;
+	font-size:24px;
+	font-weight: bold;
+}
+#innerMenu .link
+{
+	width: 100% !important;
+}
+#btScrollButtonTable
+,#btScrollButtonTableInner
+{
+	display: block;
+	width: 100%;
+	padding: 0 0 10px 0;
+	border-bottom: solid 1px #cccccc;
+	margin-top: 5px;
+	background: transparent url("../img/bt/bt_ver_mais.png") center center no-repeat;
+	height: 13px;
+	overflow: hidden;
+	text-indent: -999em;	
+}
+#btOrigem
+{
+	float: right !important;
+}
+.boxMaisInfo ul
+{
+	clear: both;
+	margin: 10px 0;
+}
+.boxMaisInfo ul li
+{
+	color: #808285;
+	border-top: solid 1px #cccccc;
+	font-size: 21px;
+	padding: 20px 0;
+}
+.boxMaisInfo ul li strong
+{
+	color: #4695f6;
+	display:block;
+	float: right;
+	font-weight: bold;
+}
+.boxMaisInfo table
+{
+	clear: both;
+}
+.boxMaisInfo table tr 
+{
+	border-bottom: solid 2px #fff;
+	border-top: solid 2px #fff;
+}
+.boxMaisInfo table tr th
+{
+	color: #808285;
+	font-size: 16px;
+	width: 50% !important;
+	text-align: center;
+	font-weight: bold;
+	padding: 20px 0;
+}
+.boxMaisInfo table tr th:first-child
+{
+	border-right: solid 2px #fff;
+}
+.boxMaisInfo table thead tr th
+,.boxMaisInfo table tfoot tr th
+{
+	background : #b1d5e5;
+}
+.boxMaisInfo table tbody tr th
+{
+	background: #d7ebf4;
+}
+.boxMaisInfo table tfoot tr th.colunaValor
+{
+	background: #edf5f8;
+}
+.boxMaisInfo table tr th span
+{
+	display: block;
+	font-size: 40px;
+	padding-top: 20px;
+}
+.boxMaisInfo table tr th strong
+{
+	font-weight: normal;
+}
+#resgateMaisInfo .boxMaisInfo table tr th
+{
+	font-size: 14px;
+}
+#resgateMaisInfo .boxMaisInfo table tfoot tr th strong.txHoras
+{
+	display: block;
+	float: right;
+	font-weight: bold;
+	margin-right: 40px;
+}
+#resgateMaisInfo .boxMaisInfo table tr th span
+{
+	font-size: 26px;
+	padding-top: 15px;
+}
+
+#resgateMaisInfo .boxMaisInfo table.fornecedorInfo
+{
+	margin-top: 15px;
+}
+#resgateMaisInfo .boxMaisInfo table.fornecedorInfo #btInfoLink tr
+{
+	display: none;
+}
+#resgateMaisInfo .boxMaisInfo table.fornecedorInfo #btInfoLink tr td
+{
+	text-align: center;
+	background: #edf5f8;
+	padding-top: 10px;
+}
+#resgateMaisInfo .boxMaisInfo table.fornecedorInfo #btInfoLink tr td a
+{
+	text-decoration: underline;
+}
+#resgateMaisInfo .boxMaisInfo table.fornecedorInfo thead tr th
+{
+	text-align: left;
+	text-indent: 10px;
+}
+#resgateMaisInfo .boxMaisInfo table.fornecedorInfo tbody tr th span
+{
+	font-size: 14px;
+}
+#resgateMaisInfo .boxMaisInfo table.fornecedorInfo tbody tr th img.imgForn
+{
+	height: 50px;
+}
+#resgateMaisInfo .boxMaisInfo table.fornecedorInfo tbody tr:nth-child(even)
+{
+	background:#daedf6;
+}
+#loaderIcone
+{
+	width: 200px;
+	margin: 20px auto 0;
+}
+#loaderIcone p
+{
+	width: 200px;
+	text-align: center;
+}
+
+
+
+#extrato_interna .filter form  select
+,#extrato_interna .filter form  input[type=text]
+{
+	width: 90%;
+	display: block;
+}
+#btProposta
+{
+	float: right;
+}
+#extrato_interna .filter form  input[type=text]
+{
+	margin: 15px 0;
+	padding: 2px;
+	clear: both;	
+}

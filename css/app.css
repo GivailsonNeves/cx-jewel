@@ -1,0 +1,54 @@
+body,
+hml{
+	margin : 0;
+	padding : 0;
+}
+body
+{
+	/*background: #83baeb url('../img/bg/bg_loading_login.png') repeat-x;*/
+}
+body
+{
+	background: #83baeb url('../img/bg/bg_loading_login.png') repeat-x;
+}
+h1.mundoCaixaLogo
+{
+	background: transparent url(../img/gr/gr_mundo_caixa.png) 0 0 no-repeat;
+	height: 133px;
+	width: 243px;
+	margin: 0 auto;
+}
+
+/**overflow elements*/
+h1.mundoCaixaLogo
+{
+	display: block;
+	text-indent: -9999em;
+	overflow: hidden;
+}
+
+/**
+* pagina de loading
+*/
+#pageLoading
+{
+	padding-top: 150px;
+}
+#pageLoading img
+{
+	background-color: transparent;
+	display: block;	
+	height: 50px;
+	width: 50px;
+	margin: 0 auto;
+	margin-top: 110px;
+}
+#pageLoading span
+{
+	color: #FFF;
+	display: block;
+	width: 150px;
+	text-align: center;
+	margin: 0 auto;
+	margin-top: 10px;
+}

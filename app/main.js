@@ -1,0 +1,7 @@
+$(function () {
+
+	new MainGame().load();
+
+});
+
+

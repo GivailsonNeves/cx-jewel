@@ -1,0 +1,211 @@
+/* INTRO
+========================================*/
+section
+{
+	height: auto;	
+}
+section#intro{
+	/*background: url(../img/bg/bg_intro.jpg) #83baeb repeat-x;*/ 
+	padding: 60px 0 0 0;	
+}
+section#intro h1{
+	background: url(../img/gr/logo_mundocaixaGrande.png);
+	height:169px;
+	margin: 0 auto 60px auto;
+	overflow: hidden;
+	text-indent: -9000px;
+	width:341px;
+}
+section#intro p{
+	color:#53585e;
+	font-size: 21px;
+	margin: 0 0 60px 0;
+	text-align: center;
+}
+section#intro .loading
+{
+	margin: 0 auto;
+	width: 300px;
+	text-align: center;
+	padding-top: 15px;
+	display: none;
+}
+section#intro .loading p
+{ 
+	color: #234151;
+	font-size: 18px;
+	text-align: center;
+	width: 100%;
+	margin: 0;
+	padding-bottom: 15px;
+}
+section#intro h3{
+	color:#53585e;
+	font-size: 21px;
+	font-weight: bold;
+	margin: 0 0 30px 0;
+	text-align: center;
+}
+section#intro input{
+	background: #fff;
+	border: solid 1px #70a6d6;
+	border-radius: 10px;
+	box-shadow: 0 2px 3px 1px #829cb2;
+	color: #828486;
+	display: block;
+	font-size:32px;
+	margin: 0 auto 20px auto;
+	padding: 10px 20px;
+	width:420px;
+}
+section#intro .button{
+	display: block;
+	float: none;
+	font-size: 36px;
+	text-transform: uppercase;
+	margin: 0 auto 20px auto;
+	width:420px;
+}
+section#intro .button.azul{
+	font-size: 24px;
+}
+/* HOME 
+======================================= */
+section#home .banner{
+	background: url(../img/bt/bl_link.png) no-repeat 415px 20px;
+}
+section#home .banner span
+{
+	background: background: url(../img/gr/banner.png) no-repeat top left;
+	margin: 10px 0 0 0;
+	display: block;
+	height: 170px;
+	width: 422px;
+}
+section#home .banner span img{
+	
+}
+section#home h4{
+	border-bottom: solid 1px #ccc;
+	color: #034e9b;
+	font-size:16px;
+	font-weight: bold;
+	margin-top: 30px;
+	padding: 15px 0;
+	width:425px;
+}
+section#home p{
+	background-repeat: no-repeat;
+	background-position: center right;
+	border-bottom: solid 1px #ccc;
+	clear: left;
+	color:#808285;
+	display: block;
+	font-size: 21px;
+	margin:10px 0;
+	padding: 15px 0;
+	width:425px;
+}
+section#home p.phone a
+,section#home p.email a
+,#phoneSempreAoLado a
+,#phonePar a
+{
+	color:#808285;
+	font-size: 21px;
+}
+section#home p.phone, #phoneSempreAoLado, #phonePar{ background-image:url(../img/gr/telefone.jpg);  }
+section#home p.email{ background-image:url(../img/gr/email.jpg);  }
+section#home p.email,
+section#home p.email a {font-size: 20px;}
+
+/* SALDO 
+======================================= */
+section#saldo p{
+	background: #fafcfc;
+	border: solid 1px #ccc;
+	clear: left;
+	color: #808285;
+	float:left;
+	font-size:42px;
+	font-weight: bold;
+	height:54px;
+	margin: 0 0 20px 0;
+	padding:20px 0 0 0; 
+	text-align: center;
+	width:420px;
+}
+section#saldo p.saldo{
+	color:#4695f6;
+	height:88px;
+	font-size: 56px;
+	margin: 0 0 20px 0;
+	padding:42px 0 0 0; 
+}
+section#saldo h4{
+	clear: left;
+	color: #808285;
+	float:left;
+	font-size: 16px;
+	font-weight: bold;
+	margin: 10px 0 15px 0;
+}
+/* EXTRATO 
+======================================= */
+section#extrato .filter form{ display:nones; }
+section#extrato .filter form.f1{ display: nones;}
+section#extrato .filter form.f2{ display: none;}
+section#extrato h4.tableTitle{
+	clear: left;
+	color: #034e9b;
+	float:left;
+	font-size:21px;
+	margin: 10px 0 20px 0;
+
+	display:none;
+}
+/* SOBRE O MUNDO CAIXA 
+======================================= */
+section#sobre h3{
+	padding-top: 50px;
+	padding-bottom: 20px;
+	text-align: center;
+}
+section#sobre p{
+	color:#808285;
+	font-size:21px;
+	margin: 0 0 30px 0;
+	text-align: center;
+}
+section#sobre p strong{
+	color:#808285;
+	font-size:21px;
+	font-weight: bold;
+}
+section#sobre img{
+	margin: 0 0 -20px -30px;
+}
+
+/* DISPLAY ========================== 
+section#home{display: none;}
+section#saldo{display: none;}
+section#extrato{display: none;}
+section#sobre{display: none;}*/
+
+/*header, footer, #roll{ display: none; }*/
+
+#phoneSempreAoLado
+,#phonePar
+{	
+	background-repeat: no-repeat;
+	background-position: center right;
+	border-bottom: solid 1px #ccc;
+	clear: left;
+	color:#808285;
+	display: block;
+	font-size: 21px;
+	margin:20px 0;
+	padding: 15px 0;
+	width: 100%;
+	padding-top: 25px !important;
+}

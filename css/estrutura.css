@@ -1,0 +1,573 @@
+body
+,html{
+	display: block;
+	overflow: hidden;
+}
+
+#blocker
+{
+	background:  #83baeb url(../img/gr/logo_mundocaixaGrande.png) center 60px no-repeat;
+	width: 100%;
+	height: 2000px;
+	z-index: 99999;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+
+/* RESET ================================ */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+	text-decoration: none;
+}
+body.inicial{
+	background: url(../img/bg/bg_intro.jpg) #83baeb repeat-x;
+}
+body.internas
+{
+	background: url(../img/bg/bg_body.jpg) #FFF repeat-x;
+}
+body.sobre
+{
+/*	background: url(../img/bg/bg_mundo_caixa.png) #FFF no-repeat center 600px ;*/
+}
+#masterContent
+{
+	width : 100%;	
+	margin : 0 auto;
+	overflow: hidden;	
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	font-family: Arial;
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* Estrutura principal ================================ */
+/* header -------------------- */
+body > header{
+	background:url(../img/bg/bg_header.jpg) no-repeat #a3c8da;
+	clear: left;
+	float:left;
+	padding: 8px 0;
+	box-shadow: 0px -1px 2px 1px #b0c2c3 inset;
+	width:100%;
+}
+body > header a{
+	background: url(../img/bt/bt_mainMenu.png) no-repeat center center;
+	float:left;
+	height:36px;
+	margin-left: 20px;
+	outline: none;
+	overflow: hidden;
+	text-indent: -9000px;
+	width:36px;
+}
+body > header h2{
+	background: url(../img/gr/logo_mundocaixa.png);
+	float:right;
+	height: 33px;
+	margin-right: 30px;
+	overflow: hidden;
+	text-indent: -9000px;
+	width:77px;
+}
+body > header h1{
+	color:#FFF;
+	float:left;
+	font-size: 24px;
+	font-weight: bold;
+	margin:6px 0 0 40px;
+	text-transform: uppercase;
+	overflow-x: hidden;
+}
+/* Corpo -------------------- */
+body div#roll{ /* conteiner das  páginas que promove a rolagem */	
+	clear: both;
+	width: 100%;
+	position: relative;
+	overflow-x: hidden;
+	overflow-y: scroll;	
+}
+body div#roll section{
+	clear: both;
+	width: 90%;
+	padding-left: 5%;
+	padding-right:5%;
+	overflow-x: hidden;
+}
+body div#roll section div.contentAlignCenter{
+	width: 420px;
+	margin: 0 auto;
+	clear: both;	
+}
+#jogo
+,#campanha
+{
+	width: 100% !important;
+	padding-left: 0 !important;
+	padding-right: 0 !important;
+}
+
+#campanha div.contentAlignCenter
+,#jogo div.contentAlignCenter{
+	width: 480px !important;
+	padding-top: 10px;
+}
+body div#roll section div.contentAlignCenter div.spacer
+{
+	clear:both;
+	height: 20px;
+}
+body div#roll section h3{
+	clear: left;
+	color: #034e9b;
+	float: left;
+	font-size:24px;
+	font-weight: bold;
+	margin: 15px 0;
+	width: 100%;
+}
+
+/* Rodapé --------------------*/
+body > footer{
+	background: #d1d7da;
+	padding: 8px 0;
+	width: 100%;
+	position: absolute;	
+	z-index: 1001;
+}
+body > footer div{
+	
+	width: 190px;
+	float: right;
+	height: 44px;
+	margin-right: 24px;
+}
+body > footer p#logoFenae{
+	background: url(../img/gr/logo_circuito.png);
+	float: left;
+	height:31px;
+	margin:11px 24px 0 0;
+	overflow: hidden;
+	text-indent: -9000px;
+	width:81px;
+}
+body > footer p#logoSempreAoLado{
+	background: url(../img/gr/logo_sempreAoLado.png);
+	height:44px;
+	overflow: hidden;
+	text-indent: -9000px;
+	width:65px;
+}
+
+/* Menu principal ------------ */ 
+#mainMenu{
+	width : 80%;
+	-webkit-box-shadow: -10px 0px 20px rgba(66, 73, 48, 0.52);
+	-moz-box-shadow:    -10px 0px 20px rgba(66, 73, 48, 0.52);
+	box-shadow:         -10px 0px 20px rgba(66, 73, 48, 0.52);
+	/*background: url(../img/bg/bg_body.jpg) #FFF repeat-x;*/
+	background-color: #4b839f;
+	left: 20%;
+	padding: 0;
+	position: absolute;
+	top: 0;
+	z-index: 99999;	
+	/*display: none;*/
+}
+#mainMenu > ul{
+	border-top:solid 1px #cccccc;
+	clear:left;
+	margin-left: 24px;
+	
+}
+#mainMenu ul li ul li{	
+	border-bottom:solid 1px #cccccc;
+	padding: 5px 0;
+}
+#mainMenu h3
+,#mainMenu .menuHeader
+,#mainMenu > ul
+,#mainMenu a.exit
+{
+	width: 90%;
+}
+#mainMenu h3{
+
+	color: #ffffff !important;
+	font-size: 24px;
+	font-weight: bold;
+	text-transform: uppercase;	
+	clear: both;
+	text-align: left !important;
+	margin-top: 30px !important;
+	margin-bottom: 30px !important;
+	margin-left: 23px !important;
+}
+#mainMenu h3.espacado
+{
+	padding-top: 70px !important;
+}
+#mainMenu ul li ul li a{
+	background: url(../img/bt/bl_mainMenu.png) no-repeat center right;
+	color:#c5eaf8;
+	display: block;
+	font-size: 18px;
+	padding:10px 0;	
+	width:100%;
+}
+#mainMenu ul li ul li a.sobreLink
+{
+	background: url(../img/bt/bl_mainMenu.png) no-repeat right 42px !important;
+	color: #ffffff !important;	
+	font-weight: bold;
+	padding-top: 40px;	
+}
+#mainMenu .menuHeader
+{
+	border-bottom: solid 1px #cccccc;
+	padding-top: 10px;
+	height: 40px;
+	margin-bottom: 20px;
+	padding-bottom: 10px;	
+	margin-left: 23px;
+}
+#mainMenu .menuHeader a
+{
+  color: #2ec2ee; 
+  font-size: 30px;
+  float: left;  
+  display: block;
+}
+#mainMenu .menuHeader a.menuHome
+{
+	text-transform: uppercase;
+	font-size: 24px;
+	padding-top: 10px;
+}
+#mainMenu .menuHeader a.closeHeadr
+{	
+	text-align: right;	
+	float: right;
+}
+
+#mainMenu a.exit{
+	color: #2dc8f4;
+	clear: both;
+	font-size: 24px;
+	display: block;
+	text-decoration: none;
+	padding-top: 30px;
+	padding-bottom: 10px;
+	font-weight: bold;
+	border-bottom: solid 1px #cccccc;
+	margin-left: 23px;
+}
+/**campanha*/
+
+#campanha
+{
+	margin: 0 !important;
+}
+#campanha div.boxVideo
+{
+	background: url(../img/bg/bg_player.png) no-repeat transparent;
+	height: 299px;
+	width: 480px;
+	position: relative;
+}
+#campanha div.boxVideo div.bgvideo
+{
+	clear: both;
+	background-color: #fff;
+	height: 299px;
+	width: 420px;
+	display: block;	
+	position:absolute;
+	z-index: 8;
+	left: 31px;
+	top:0;
+}
+#campanha div.boxVideo video
+{
+	clear: both;
+	height: 299px;
+	width: 420px;
+	display: block;	
+	position:absolute;
+	z-index: 10;
+	left: 31px;
+	top:0;
+}
+#campanha a
+{
+	clear: both;
+	display: block;
+	float: none;
+	margin: 20px 0 20px 30px;
+	width: 420px;
+}
+#campanha a.azul
+{	
+	text-transform: uppercase;
+	padding: 26px 0;
+	font-size: 28px;
+}
+#campanha a.laranja
+{
+	margin-top: 0;
+	font-size: 36px;
+	text-transform: uppercase;
+	padding: 21px 0;
+}
+#campanha ul{
+	width: 420px;
+	margin-top: 20px;
+	padding: 0 30px;
+	clear: both;
+}
+#campanha ul li{
+	border-top: solid 1px #cccccc;
+	color: #808285;
+	font-size: 20px;
+	padding: 10px 0;
+}
+#campanha ul li.semana{
+	border-bottom: solid 1px #cccccc;
+}
+#campanha ul li span
+{
+	display: block;
+	float: right;
+	font-weight: bold;
+}
+#campanha .contentAlignCenter p.aviso
+{
+	border-top: solid 1px #cccccc;
+	color: #808285;
+	font-size: 14px;
+	text-align: center;
+	margin: 0 auto;
+	padding-top: 10px;
+	width: 420px;
+}
+#campanha .contentAlignCenter div.downloadManual
+{
+	border-top: solid 1px #cccccc;
+	border-bottom: solid 1px #cccccc;
+	padding: 15px 0;
+	width: 420px;
+	height:62px;
+	margin: 40px auto 0;
+	clear: both;
+}
+#campanha .contentAlignCenter div.downloadManual a
+{
+	background: url(../img/bg/bt_download_manual.png) no-repeat transparent;
+	display: block;
+	overflow: hidden;
+	height:62px;
+	width: 344px;
+/*	text-indent: -9999em;*/
+	margin: 0 auto;
+}
+#campanha .contentAlignCenter div.downloadManual a span
+{
+	color: #56adf8;
+	font-size: 18px;
+	font-weight: bold;
+	display: block;
+	padding-left: 75px;	
+	text-align: center;
+	padding-top: 10px;
+}
+#campanha .contentAlignCenter div.downloadManual a span strong
+{
+	font-size: 16px;
+	color: #eb9217;
+	display: block;
+}
+/***/
+#como_jogar h2
+{	
+	background: transparent url("../img/game/tit_conquistando.png") center center no-repeat;
+	display: block;
+	text-indent: -999em;
+	display: block;
+	overflow: hidden;
+	margin: 0 auto;
+	height: 92px;
+	width: 299px;
+	
+}
+#como_jogar h3
+{
+	color: #828080 !important;
+	font-size: 22px !important;
+	text-transform: uppercase;
+	margin: 0 auto !important;
+	text-align: center;
+	padding: 26px 0 10px 0;
+}
+#como_jogar div.tutContent a
+,#como_jogar div.startGameArea a.startGameBt
+{
+	display: block;
+	overflow: hidden;
+	text-indent: -999em;
+	margin: 0 auto;
+}
+#como_jogar div.tutContent div.slideContent
+{
+	overflow-y: scroll;
+}
+#como_jogar div.tutContent div.slideContent
+,#como_jogar div.tutContent div.slideContent ul li
+,#como_jogar div.tutContent div.slideContent ul
+{
+	height: 450px;
+	display: block;
+}
+#como_jogar div.tutContent div.slideContent ul li img
+{
+	 margin-top: 20px;
+}
+#como_jogar div.tutContent ul.paginador
+{
+	float: right;
+	margin-top: -18px;
+}
+#como_jogar div.tutContent ul.paginador li
+{
+	float: left;
+	margin-left:6px;
+}
+#como_jogar div.tutContent ul.paginador li a
+{
+	background: transparent url("../img/game/roll_marc.png") center center no-repeat;
+	height: 18px;
+	width: 18px;
+	
+}
+#como_jogar div.tutContent ul.paginador li a.active
+{
+	background: transparent url("../img/game/roll_marc_active.png") center center no-repeat;
+}
+#como_jogar div.tutContent a.btRollFoward
+{
+	background: transparent url("../img/game/tut_roll_forward.png") center center no-repeat;
+	height:25px;
+	width:262px;
+}
+#como_jogar div.tutContent a.btRollBack
+{
+	background: transparent url("../img/game/tut_roll_back.png") center center no-repeat;
+	height:25px;
+	width:262px;
+}
+#como_jogar div.startGameArea
+{
+	background: transparent url("../img/game/bg_bt_comecar_jogar.png") center center no-repeat;
+	height: 80px;
+	width: 327px;
+	margin: 0 auto;
+	clear: both;
+	padding-top: 30px;
+	margin-top: 20px;
+}
+
+#como_jogar div.startGameArea a.startGameBt
+{
+	background: transparent url("../img/game/bt_comecar_jogo.png") center center no-repeat;
+	height: 45px;
+	width: 279px;
+	
+}
+
+/** loading principal ***/
+#boxLoading
+{
+	position: absolute;
+	width: 100%;
+	top: 52px;
+	left: 0;
+	z-index:999;
+
+	overflow: hidden;
+		margin: 0;
+	padding: 0;
+}
+#boxLoading div.alertBg
+{
+
+	position: relative;
+	top: 0;
+	left: 0;
+	width: 100%;
+	background-color: #fff;
+	opacity:0.8;
+	filter:alpha(opacity=80);
+	margin: 0;
+	padding: 0;
+}
+#boxLoading div.loaderContent
+{
+
+	width: 300px;
+	position: absolute;
+	top: 250px;
+	left: 50%;
+	margin-left: -150px;
+	margin-bottom: 8px;
+}
+#boxLoading img
+{
+	display: block;
+	height: 52px;
+	width: 52px;
+	margin: 0 auto;
+	margin-top: 40px;
+}
+#boxLoading p.message
+{
+	color: #234151;
+	font-size: 18px;
+	text-align: center;
+}

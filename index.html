@@ -1,0 +1,87 @@
+<html lang="pt-br">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport"
+        content="width=device-width, target-densitydpi=device-dpi, initial-scale=1.0, maximum-scale=1.0" />
+    <title>Extrato de pontos - Mundo CAIXA</title>
+    <link rel="stylesheet" type="text/css" href="css/componentes.css">
+    <link rel="stylesheet" type="text/css" href="css/estrutura.css">
+    <link rel="stylesheet" type="text/css" href="css/paginas.css">
+    <link href="css/Game.css" rel="stylesheet" type="text/css" />
+    <script type="text/javascript" charset="utf-8" src="lib/jquery-1.8.3.min.js"></script>
+
+    <script type="text/javascript" charset="utf-8" src="lib/json.js"></script>
+    <script type="text/javascript" charset="utf-8" src="app/main.js"></script>
+    <!--   imports do game -->
+    <script src="lib/TweenMax.min.js"></script>
+    <script src="app/config.js" type="text/javascript" language="javascript"></script>
+    <script src="app/resorce.js" type="text/javascript" language="javascript"></script>
+    <script src="app/crystal.js" type="text/javascript" language="javascript"></script>
+    <script src="app/game.js" type="text/javascript" language="javascript"></script>
+</head>
+
+<body class="inicial">
+    <section id="jogo">
+        <div class="contentAlignCenter">
+            <div id="GameArea">
+                <h2>Conquistando pontos</h2>
+                <div class="painelControle">
+                    <p>
+                        pontos</p>
+                    <div class="boxPontuacaoCorrente">
+                        <span class="pontuacaoCorrent">000.000.000</span>
+                    </div>
+                </div>
+                <div class="painelTempo">
+                    <table class="contentTime">
+                        <tr>
+                            <th class="countTime">
+                                tempo
+                            </th>
+                            <th id="labelPausePlay">
+                                pause
+                            </th>
+                        </tr>
+                        <tr>
+                            <td class="countTime">
+                                <span class="timeProgress"></span>
+                                <span class="timeCounter">00:00 minutos</span>
+                            </td>
+                            <td>
+                                <a href="#" class="pause" title="pause">pause</a>
+                                <a href="#" class="play" title="iniciar">
+                            </td>
+                        </tr>
+                    </table>
+                </div>
+                <div class="tabuleiro">
+                    <div id="stageHtml">
+                    </div>
+                    <div id="efect">
+                        <span class="efExplosao"></span><span class="efRaio"></span>
+                    </div>
+                </div>
+                <div class="boxControle">
+                    <p class="painelPoderes">
+                        poderes</p>
+                    <div class="controladorPoderes">
+                        <ul>
+                            <li class="powerNivel1"><span class="powerCage"></span><strong>20%</strong> </li>
+                            <li class="powerNivel2"><span class="powerCage"></span><strong>60%</strong> </li>
+                            <li class="powerNivel3"><span class="powerCage"></span><strong>100%</strong> </li>
+                        </ul>
+                        <div class="caugeIcons">
+                            <a href="#" class="iconNivel1 disabled" title="fogo">fogo</a> <a href="#"
+                                class="iconNivel2 disabled" title="relampago">relampago</a> <a href="#"
+                                class="iconNivel3 disabled" title="cubo">
+                                cubo</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="spacer"></div>
+        </div>
+    </section>
+</body>
+</html>

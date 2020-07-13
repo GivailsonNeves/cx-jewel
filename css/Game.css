@@ -1,0 +1,541 @@
+﻿#GameArea h2
+{
+	
+	 background: transparent url("../img/game/tit_conquistando.png") center center no-repeat;
+	display: block;
+	text-indent: -999em;
+	display: block;
+	overflow: hidden;
+	margin: 0 auto;
+	height: 92px;
+	width: 299px;
+	margin-bottom: 40px;
+}
+#GameArea div p
+{
+	color: #034e9b;
+	font-size: 12px;
+	text-transform: uppercase;
+	padding-bottom: 10px;
+	text-align: center;
+	font-weight: bold;
+}
+#GameArea div p.painelPoderes
+{
+	font-size: 20px;
+	padding-top: 20px;
+}
+#GameArea .painelControle p.painelPoderes
+{
+    padding-top: 45px;    
+}
+#GameArea .painelControle div.boxControle
+,#GameArea .painelTempo .pausePlayControle
+{
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    border-radius: 6px;
+}
+#GameArea .painelControle span, #GameArea .painelControle .controladorPoderes ul li strong
+{
+    display: block;
+    color: #07a8fc;
+    font-size: 20px;
+    width: 141px;
+    margin: 0 auto;
+}
+#GameArea .painelControle p
+{
+	border-bottom: 1px #ccc solid;
+	margin-bottom: 5px;
+}
+#GameArea .painelControle span
+{
+	color: #f5ac0c;
+    font-size: 36px;
+	text-align: center;
+	font-weight: bold;
+	width: 100%;
+}
+#GameArea .painelControle .controladorPoderes
+{
+    height: 124px;
+}
+#GameArea .painelControle .controladorPoderes ul
+{
+    
+    border: 1px #d6d6d6 solid;
+    border-right: none;
+    height: 63px;
+    width: 143px;
+    margin-left: 4px;
+}
+#GameArea .painelControle .controladorPoderes ul li
+{    
+    float: left;
+    height: 63px;
+    position: relative;    
+    border-right: 1px #d6d6d6 solid;
+}
+#GameArea .painelControle .controladorPoderes ul li span
+{    
+    height: 63px;
+}
+#GameArea .painelControle .controladorPoderes ul li.powerNivel1
+{
+    width: 46px;
+}
+#GameArea .painelControle .controladorPoderes ul li.powerNivel2
+{
+    width: 51px;
+}
+#GameArea .painelControle .controladorPoderes ul li.powerNivel3
+{
+    width: 43px;
+}
+#GameArea .painelControle .controladorPoderes ul li span, #GameArea .painelControle .controladorPoderes ul li strong
+{
+    position: absolute;
+}
+#GameArea .painelControle .controladorPoderes ul li strong
+{
+    text-align: center;
+    display: block;
+    left: 50%;
+    width: 26px;
+    margin-left: -13px;
+    top: 15px;
+    font-size: 30px;
+}
+#GameArea .painelControle .controladorPoderes ul li.powerNivel1 span
+{    
+    background-color: #f1ac15;
+}
+#GameArea .painelControle .controladorPoderes ul li.powerNivel2 span
+{    
+    background-color: #f17215;
+}
+#GameArea .painelControle .controladorPoderes ul li.powerNivel3 span
+{
+    background-color: #f11f15;
+}
+#GameArea .painelControle .controladorPoderes div.caugeIcons
+{
+    padding-left: 18px;
+    position: relative;
+}
+#GameArea .painelControle .controladorPoderes div.caugeIcons a
+{
+    display: block;
+    position: absolute;
+    height: 40px;
+    width: 40px;
+    top: 5px;
+}
+#GameArea .painelControle .controladorPoderes div.caugeIcons a.iconNivel1
+{
+    background: transparent url("../img/game/icon_power_fire.png") center center no-repeat;
+    left: 10px;
+}
+#GameArea .painelControle .controladorPoderes div.caugeIcons a.iconNivel2
+{
+    background: transparent url("../img/game/icon_power_llighting.png") center center no-repeat;
+    left: 58px;
+}
+#GameArea .painelControle .controladorPoderes div.caugeIcons a.iconNivel3
+{
+    background: transparent url("../img/game/icon_power_cube.png") center center no-repeat;
+    left: 106px;
+}
+/**disabled*/
+#GameArea .painelControle .controladorPoderes div.caugeIcons a.iconNivel1.disabled
+{
+    background: transparent url("../img/game/icon_power_fire_disabled.png") center center no-repeat;
+    cursor: default;
+}
+#GameArea .painelControle .controladorPoderes div.caugeIcons a.iconNivel2.disabled
+{
+    background: transparent url("../img/game/icon_power_llighting_disabled.png") center center no-repeat;
+    cursor: default;
+}
+#GameArea .painelControle .controladorPoderes div.caugeIcons a.iconNivel3.disabled
+{
+    background: transparent url("../img/game/icon_power_cube_disabled.png") center center no-repeat;
+    cursor: default;
+}
+
+
+#GameArea .painelControle .controladorPoderes div.caugeIcons a
+{
+    display: block;
+    overflow: hidden;
+    text-indent: -9999em;
+    cursor: pointer;
+}
+
+#GameArea .painelControle
+{
+ /*   background: transparent url("../img/game/bg_painel_pontuacao.png") left center no-repeat;*/
+    width: 100%;
+	padding-bottom: 20px;
+}
+#GameArea .tabuleiro
+{
+    background: transparent url("../img/game/bg_tabuleiro.png") left center no-repeat;
+    height: 401px;
+    width: 396px;
+	margin: 0 auto;
+}
+#GameArea .painelTempo
+{
+	padding-bottom: 5px;
+}
+#GameArea .painelTempo table
+{    
+	width: 396px;
+	margin: 0 auto;
+}
+#GameArea .painelTempo table  tr th
+,#GameArea .painelTempo table tr td{
+	background: none;
+	border: 0 none;
+	width: 51px;
+	padding: 0;
+}
+#GameArea .painelTempo table  tr th
+{
+	color: #034e9b;
+	font-size: 12px;
+	text-transform: uppercase;
+	text-align: center;
+	font-weight: bold;
+	
+}
+#GameArea .painelTempo table tr .countTime
+{
+	width: 345px;
+}
+#GameArea .painelTempo table tr th.countTime
+{
+	text-indent: 44px;
+}
+#GameArea .painelTempo table tr td.countTime
+{
+	position: relative;
+}
+#GameArea .painelTempo table tr td.countTime .timeProgress
+{    
+    background: transparent url("../img/game/bg_time_progress.png") left center repeat-x;
+    height: 36px;
+    width: 343px;
+    display: block;
+    margin: 1px 1px 0 1px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+	float: right;
+
+}
+#GameArea .painelTempo table tr td.countTime .timeCounter
+{
+    color: #c67a02;
+	font-size: 17px;
+	font-weight: bold;
+	display: block;
+	position: absolute;
+	left: 131px;
+	top: 18px;
+	z-index: 10;
+	width: 150px;
+}
+
+#GameArea .painelTempo table tr td.countTime
+{
+	background: transparent url("../img/game/bg_timer.png") left center no-repeat;
+}
+#GameArea .painelTempo table tr td a
+{
+	display: block;
+	overflow: hidden;
+	text-indent: -9999em;
+	height: 38px;
+	width: 41px;
+	margin-left: 6px;
+}
+#GameArea .painelTempo table tr td a.pause
+{
+	background: transparent url("../img/game/bt_pase_game.png") left center no-repeat;
+	
+}
+#GameArea .painelTempo table tr td a.play
+{
+	background: transparent url("../img/game/bt_play_game.png") left center no-repeat;
+}
+#GameArea .painelTempo table tr td a.pause.disabled
+{
+	display: none;
+	
+}
+#GameArea .painelTempo table tr td a.disabled
+{
+	display: none;
+}
+#GameArea .painelTemp .contentTime
+{
+	width: 396px;
+}
+
+#GameArea .boxControle .controladorPoderes
+{
+	background: transparent url("../img/game/bg_power_gauge.png") center center no-repeat;
+	margin: 0 auto;
+	width: 376px;	
+	height:50px;
+	position: relative;
+}
+#GameArea .boxControle .controladorPoderes .caugeIcons
+{
+	position: absolute;
+	top: 0;
+}
+#GameArea .boxControle .controladorPoderes .caugeIcons a
+{
+	display: block;
+	overflow: hidden;
+	text-indent: -999em;
+	height: 50px;
+	width: 71px;
+	float: left;
+	margin-right: 51px;
+	position: relative;
+	left: -11px;
+}
+#GameArea .boxControle .controladorPoderes .caugeIcons a.iconNivel1
+{
+	background: transparent url("../img/game/bt_s_fogo.png") center center no-repeat;
+}
+#GameArea .boxControle .controladorPoderes .caugeIcons a.iconNivel2
+{
+	background: transparent url("../img/game/bt_s_raio.png") center center no-repeat;
+}
+#GameArea .boxControle .controladorPoderes .caugeIcons a.iconNivel3
+{
+	background: transparent url("../img/game/bt_s_cubo.png") center center no-repeat;
+}
+
+#GameArea .boxControle .controladorPoderes .caugeIcons a.iconNivel1.disabled
+{
+	background: transparent url("../img/game/bt_s_fogo_b.png") center center no-repeat;
+}
+#GameArea .boxControle .controladorPoderes .caugeIcons a.iconNivel2.disabled
+{
+	background: transparent url("../img/game/bt_s_raio_b.png") center center no-repeat;
+}
+#GameArea .boxControle .controladorPoderes .caugeIcons a.iconNivel3.disabled
+{
+	background: transparent url("../img/game/bt_s_cubo_b.png") center center no-repeat;
+}
+
+#GameArea .boxControle .controladorPoderes ul li
+{
+	float: left;
+	width: 125px;
+	text-align: center;
+	margin-top: 7px;
+	height: 36px;	
+}
+#GameArea .boxControle .controladorPoderes ul li span
+{
+	width: 126px;
+	display: block;
+	height: 36px;
+	-webkit-border-top-right-radius: 4px;
+	-webkit-border-bottom-right-radius: 4px;
+	-moz-border-radius-topright: 4px;
+	-moz-border-radius-bottomright: 4px;
+	border-top-right-radius: 4px;
+	border-bottom-right-radius: 4px;
+}
+#GameArea .boxControle .controladorPoderes ul li strong
+{
+	position: relative;
+	top: -29px;
+	left: 18px;
+	font-size: 22px;
+	font-weight: bold;
+}
+#GameArea .boxControle .controladorPoderes ul li.powerNivel1 strong
+{
+	color: #c66300;
+}
+#GameArea .boxControle .controladorPoderes ul li.powerNivel2 strong
+{
+	color: #bd2900;
+}
+#GameArea .boxControle .controladorPoderes ul li.powerNivel3 strong
+{
+	color: #710100;
+}
+#GameArea .boxControle .controladorPoderes ul li.powerNivel1 span
+{
+	-webkit-border-top-left-radius: 4px;
+	-webkit-border-bottom-left-radius: 4px;
+	-moz-border-radius-topleft: 4px;
+	-moz-border-radius-bottomleft: 4px;
+	border-top-left-radius: 4px;
+	border-bottom-left-radius: 4px;
+}
+#GameArea .boxControle .controladorPoderes ul li.powerNivel1 span.powerCage
+{
+	background: transparent url("../img/game/bg_cauge_p_1.png") center center repeat-x;	
+}
+#GameArea .boxControle .controladorPoderes ul li.powerNivel2 span.powerCage
+{
+	background: transparent url("../img/game/bg_cauge_p_2.png") center center repeat-x;
+}
+#GameArea .boxControle .controladorPoderes ul li.powerNivel3 span.powerCage
+{
+	background: transparent url("../img/game/bg_cauge_p_3.png") center center repeat-x;
+}
+
+/**
+    Definições do jogo
+*/
+
+#stageHtml
+{
+    width: 375px;
+    height: 375px;
+    position: relative;
+    overflow: hidden;
+    top: 13px;
+    left: 10px;
+    z-index: 99;
+}
+
+#stageHtml span
+{
+    position: absolute;
+    display: block;
+    overflow: hidden;
+    padding-right: 1px;
+    padding-bottom: 1px;
+    cursor: pointer;
+}
+#efect
+{
+    height: 375px;
+	width: 375px;
+	position: relative;
+	left: 11px;
+	top: -362px;
+	z-index: 100;
+	overflow: hidden;
+	display: none;
+
+}
+#efect span
+{
+    position: absolute;
+    overflow: hidden;
+    display: block;
+    left: 0;
+    top: 0;
+}
+#efect span.efExplosao
+{
+    background: transparent url("../img/game/cristais/explosao_efeito.png") 0 0 no-repeat;
+    height: 141px;
+    width: 141px;
+    display: none;
+}
+#efect span.efRaio
+{
+    background: transparent url("../img/game/cristais/raio_efeito.png") 0 0 no-repeat;
+    height: 752px;
+    width: 752px;
+    display: none;
+}
+#dica, #premioInstantaneo
+{
+    background: transparent url("../img/game/bg_dica.png") left center no-repeat;
+    width: 375px;
+    height: 375px;
+    position: relative;
+    left: 44px;
+    top: -362px;
+    z-index: 100;
+}
+#premioInstantaneo .contentPremio, #dica .contentDica
+{
+    height: 157px;
+    padding: 15px;
+    width: 251px;
+    position: absolute;
+    left: 47px;
+    top: 94px;
+}
+#dica .contentDica h3
+{
+    font-size: 26px;
+    color: #f6b11b;
+    padding: 0;
+    margin-bottom: 15px;
+}
+#premioInstantaneo a.backToGame, #dica a.backToGame
+{
+    position: absolute;
+    background: transparent url("../img/game/bt_começar_jogo_dica.png") left top no-repeat;
+    height: 40px;
+    width: 248px;
+    top: 293px;
+    left: 87px;
+}
+#premioInstantaneo .contentPremio p, #dica .contentDica p
+{
+    
+    font-size: 14px;
+    text-transform: none;
+    color: #717070;
+    padding: 0;
+}
+#premioInstantaneo .contentPremio p
+{
+    color: #626060;
+    padding-top: 20px;
+}
+#premioInstantaneo .contentPremio h3
+{
+    padding-top: 58px;
+    color: #07a8fc;
+    font-size: 15px;
+    text-transform: uppercase;
+}
+#premioInstantaneo .fotoPremio
+{
+    background: transparent url("../img/game/bg_foto_premio.png") left top no-repeat;
+    position: absolute;
+    display: block;
+    height: 93px;
+    width: 93px;
+    top: 55px;
+    left: 32px;
+}
+Cristal06_1
+{
+    width: 45px;
+    height: 46px;
+    background-position: -2px -2px;
+}
+Cristal06_2
+{
+    width: 45px;
+    height: 46px;
+    background-position: -49px -2px;
+}
+Cristal06_3
+{
+    width: 45px;
+    height: 46px;
+    background-position: -96px -2px;
+}
